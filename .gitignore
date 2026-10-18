@@ -1,0 +1,35 @@
+# Maven
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Java
+*.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Test reports
+allure-results/
+allure-report/
+test-output/
+
+# Local configuration overrides
+config.local.properties
+# Private test data - do not upload to GitHub
+src/main/resources/AddMultipleProducts.xlsx
+src/main/resources/productFilterData.csv
+src/main/resources/searchData.csv
