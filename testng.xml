@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MySuite">
+    <test name="TheFirstScenario">
+        <classes>
+            <class name = "tests.products.ProductFilterTest"/>
+        </classes>
+    </test>
+    <test name="TheSecondScenario">
+        <classes>
+            <class name = "tests.products.AddMultipleProductsTest"/>
+        </classes>
+    </test>
+    <test name="TheThirdScenario">
+        <classes>
+            <class name = "tests.products.AddMultipleFreeShippingProductsTest"/>
+        </classes>
+    </test>
+    <test name="TheFourthScenario">
+        <classes>
+            <class name = "tests.home.HomeTest"/>
+        </classes>
+    </test>
+</suite>
